@@ -1,0 +1,234 @@
+.nav {
+  position: absolute;
+  width: 192px;
+  height: 928px;
+  left: -10px;
+  top: -19px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 25px 25px 0px;
+}
+
+.logo {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+.prm {
+  position: absolute;
+  width: 320px;
+  height: 18px;
+  left: 20px;
+  top: 95px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #3159c2;
+}
+
+.prof {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  left: 48px;
+  top: 170px;
+}
+
+.us {
+  position: absolute;
+  width: 65px;
+  height: 24px;
+  left: 60px;
+  top: 260px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+.con {
+  width: 1248px;
+}
+.boa {
+  position: absolute;
+  width: 77px;
+  height: 24px;
+  left: 53px;
+  top: 350px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #b3b3b3;
+}
+
+.tr {
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 53px;
+  top: 400px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #b3b3b3;
+}
+
+.ph {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 53px;
+  top: 450px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #3159c2;
+}
+
+.ps {
+  position: absolute;
+  width: 42px;
+  height: 24px;
+  left: 53px;
+  top: 500px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #b3b3b3;
+}
+
+.ber {
+  position: absolute;
+  width: 43px;
+  height: 24px;
+  left: 53px;
+  top: 550px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #b3b3b3;
+}
+
+.sh {
+  position: absolute;
+  width: 303px;
+  height: 24px;
+  left: 243px;
+  top: 25px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+
+  color: #3159c2;
+}
+
+table {
+  position: absolute;
+  width: 1120px;
+  height: 100px;
+  left: 243px;
+  top: 140px;
+}
+
+.up {
+  width: 1100px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 23px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3159c2;
+}
+
+.no {
+
+  padding-left: 20px;
+  width: 80px;
+}
+
+.name {
+  width: 210px;
+}
+
+.telp{
+    width: 210px;
+}
+.rmh{
+    width: 180px;
+}
+.srn{
+    width: 210px;
+}
+
+.usr {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.tph {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 1150px;
+    top: 70px;
+  
+    background: #3159c2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 25px;
+    color: white;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: white;
+  }

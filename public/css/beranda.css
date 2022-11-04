@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js);
+@import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js);
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+body{
+   background-color:aliceblue ;
+   
+}
+
+header{
+   font-family: 'Open sans';
+   background-color: #f8f8f8;
+   padding: 30px;
+   box-shadow:0 0 3px  #000000;
+   text-align: right;
+   font-size: 22pt;
+}
+
+header li{
+   display:inline;
+   padding: 30px;
+}
+
+header .headnav{
+   text-decoration: none;
+   color:#3159C2;
+  
+}
+
+header .headnav:hover{
+   color:rgb(253, 143, 0);
+}
+.banner li .bn{
+   width: 100%;
+   height: 430px;
+}
+
+header li .logo{
+   float: left;
+   width: 90px;
+   margin-top: -10px;
+}
+header li .nmlogo{
+   float :left;
+   padding: 15px;
+   font-family:'Open sans';
+   color: #3159C2;
+  margin-top: -11px;
+}
+
+header li .rcp{
+   width: 40px;
+   padding: 5px;
+}
+header li .user{
+   width: 40px;
+   padding: 5px;
+}
+
+.submenu-wrapper{
+   position: absolute;
+   top:10%;
+   right: 0%;
+   max-height: 0;
+   overflow:visible;
+   transition: max-height 0.5s;
+}
+
+.submenu-wrapper .openMenu{
+   max-height: 400px;
+}
+
+.submenu{
+   background-color: antiquewhite;
+   border-radius: 20px;
+   padding: 16px;
+   margin: 10px;
+}
+
+.user-info h2{
+   font-weight: 500;
+   
+}
+.mt-100{ 
+   margin-top:100px;
+}
+.mb-100{
+   margin-bottom:100px;
+}
+.card {
+   position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: rgba(49, 128, 247, 0.521);
+   background-clip: border-box;
+   border: 0px solid transparent;
+   border-radius: 0px;
+}
+
+.card-body {
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto;
+   padding: 1.25rem;
+   font-family: 'Open sans';
+}
+
+.card .card-title {
+   position: relative;
+   font-weight: 600;
+   margin-bottom: 10px;
+   font-family: 'Open sans';
+}
+
+ul.list-style-none li {
+   list-style: none;
+}
+
+ul.list-style-none li a {
+   color: #000000;
+   padding: 8px 0px;
+   display: block;
+   text-decoration: none;
+}
+ul.list-style-none li p{
+   list-style: none;
+   color:#9c0000;
+   font-weight: bold;
+}
+.m-t-5 {
+   margin-top: 5px;
+}
+
+.w-30px {
+   width: 30px;
+}

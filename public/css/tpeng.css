@@ -1,0 +1,366 @@
+.nav {
+    position: absolute;
+    width: 192px;
+    height: 928px;
+    left: -10px;
+    top: -19px;
+  
+    background: #ffffff;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 25px 25px 0px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+  }
+  
+  .prm {
+    position: absolute;
+    width: 320px;
+    height: 18px;
+    left: 20px;
+    top: 95px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 169% */
+  
+    color: #3159c2;
+  }
+  
+  .prof {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 48px;
+    top: 170px;
+  }
+  
+  .us {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 60px;
+    top: 260px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 118% */
+  
+    color: #000000;
+  }
+  .con {
+    width: 1248px;
+  }
+  .boa {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: 53px;
+    top: 350px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 169% */
+  
+    color: #b3b3b3;
+  }
+  
+  .tr {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 53px;
+    top: 400px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  
+    color: #b3b3b3;
+  }
+  
+  .ph {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 53px;
+    top: 450px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  
+    color: #b3b3b3;
+  }
+  
+  .ps {
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    left: 53px;
+    top: 500px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  
+    color: #b3b3b3;
+  }
+  
+  .ber {
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 53px;
+    top: 550px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  
+    color: #3159c2;
+  }
+  
+  .sh {
+    position: absolute;
+    width: 303px;
+    height: 24px;
+    left: 843px;
+    top: 25px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+  
+    color: #3159c2;
+  }
+
+  .nm {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 700px;
+    top: 110px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 118% */
+  
+    color: #090909;
+  }
+  
+  .inpn {
+    position: absolute;
+    width: 540px;
+    height: 40px;
+    left: 705px;
+    top: 153px;
+  
+    color: #496ecb;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    border-color: white;
+  }
+
+  .nt {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 700px;
+    top: 205px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 118% */
+  
+    color: #090909;
+  }
+
+  .inpt {
+    position: absolute;
+    width: 540px;
+    height: 40px;
+    left: 705px;
+    top: 248px;
+  
+    color: #496ecb;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    border-color: white;
+  }
+
+  .nr {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 700px;
+    top: 300px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 118% */
+  
+    color: #090909;
+  }
+
+  .inpr {
+    position: absolute;
+    width: 540px;
+    height: 40px;
+    left: 705px;
+    top: 343px;
+  
+    color: #496ecb;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    border-color: white;
+  }
+
+  .usr {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 700px;
+    top: 395px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 118% */
+  
+    color: #090909;
+  }
+
+  .inps {
+    position: absolute;
+    width: 540px;
+    height: 40px;
+    left: 705px;
+    top: 438px;
+  
+    color: #496ecb;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    border-color: white;
+  }
+
+  .pw {
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    left: 700px;
+    top: 490px;
+  
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 118% */
+  
+    color: #090909;
+  }
+
+  .inpw {
+    position: absolute;
+    width: 540px;
+    height: 40px;
+    left: 705px;
+    top: 533px;
+  
+    color: #496ecb;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    border-color: white;
+  }
+
+  .kirim {
+    position: absolute;
+    width: 219px;
+    height: 44px;
+    left: 890px;
+    top: 650px;
+  
+    background: #3159c2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 25px;
+    color: white;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    border-color: white;
+  }

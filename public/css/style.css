@@ -1,0 +1,489 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 807px;
+  font-family: "Open Sans";
+}
+
+.img {
+  position: absolute;
+  width: 87px;
+  margin-left: 310px;
+  margin-top: 80px;
+}
+
+h1 {
+  position: absolute;
+  width: 359px;
+  height: 42px;
+  left: 410px;
+  top: 89px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+
+  color: #3159c2;
+}
+.rinci {
+  position: absolute;
+  width: 670px;
+  height: 320px;
+  left: 300px;
+  top: 164px;
+
+  background: #3159c2;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.tag {
+  position: absolute;
+  width: 309px;
+  height: 24px;
+  left: 195px;
+  color: white;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.air {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 75px;
+  top: 55px;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pa {
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 55px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.keam {
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  left: 75px;
+  top: 110px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pk{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 110px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.kebe {
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 75px;
+  top: 165px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pb{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 165px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.gr {
+  position: absolute;
+  width: 520px;
+  height: 0px;
+  left: 75px;
+  top: 235px;
+  border: 1px solid #d5d5d5;
+}
+
+.tot {
+  position: absolute;
+  width: 51px;
+  height: 24px;
+  left: 75px;
+  top: 238px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pt{
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 478px;
+  top: 238px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.metod {
+  position: absolute;
+  width: 670px;
+  height: 320px;
+  left: 300px;
+  top: 500px;
+
+  background: #3159c2;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.tod {
+  position: absolute;
+  width: 250px;
+  height: 24px;
+  left: 210px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.bca {
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 55px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.bri {
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 100px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.mandiri {
+  position: absolute;
+  width: 340px;
+  height: 24px;
+  left: 75px;
+  top: 145px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #ffffff;
+}
+
+.bsi {
+  position: absolute;
+  width: 320px;
+  height: 24px;
+  left: 75px;
+  top: 190px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.bni {
+  position: absolute;
+  width: 370px;
+  height: 24px;
+  left: 75px;
+  top: 235px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.pay {
+  position: absolute;
+  width: 657px;
+  height: 657px;
+  left: 1000px;
+  top: 164px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.paym {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 270px;
+  top: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 99% */
+
+  color: #000000;
+}
+
+.norek {
+  position: absolute;
+  width: 168px;
+  height: 24px;
+  left: 50px;
+  top: 75px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+
+.inpn {
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 55px;
+  top: 125px;
+
+  background: #d9d9d9;
+  color: #496ecb;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-color: white;
+}
+
+.name {
+  position: absolute;
+  width: 110px;
+  height: 24px;
+  left: 50px;
+  top: 190px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+
+.inpm {
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 55px;
+  top: 240px;
+  color: #496ecb;
+  background: #d9d9d9;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-color: white;
+}
+
+.totpem {
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: 50px;
+  top: 305px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+
+.inpt {
+  position: absolute;
+  width: 560px;
+  height: 50px;
+  left: 55px;
+  top: 355px;
+  color: #496ecb;
+  background: #d9d9d9;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-color: white;
+}
+
+.ung {
+  position: absolute;
+  width: 300px;
+  height: 24px;
+  left: 50px;
+  top: 420px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+
+[type="file"] + label {
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  outline: none;
+  padding-left: 60px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+}
+.btn-2 {
+  position: absolute;
+  width: 90px;
+  height: 23px;
+  left: 50px;
+  top: 480px;
+  color: white;
+  background: #3159c2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+}
+
+.konf {
+  transition: all 0.3s;
+  position: absolute;
+  width: 574px;
+  height: 58px;
+  left: 50px;
+  top: 570px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  border-color: white;
+  color: white;
+  background: #3159c2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+}

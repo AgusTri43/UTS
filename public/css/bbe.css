@@ -1,0 +1,261 @@
+.nav {
+  position: absolute;
+  width: 192px;
+  height: 928px;
+  left: -10px;
+  top: -19px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 25px 25px 0px;
+}
+
+.logo {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+.prm {
+  position: absolute;
+  width: 320px;
+  height: 18px;
+  left: 20px;
+  top: 95px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #3159c2;
+}
+
+.prof {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  left: 48px;
+  top: 170px;
+}
+
+.us {
+  position: absolute;
+  width: 65px;
+  height: 24px;
+  left: 60px;
+  top: 260px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 118% */
+
+  color: #000000;
+}
+.con {
+  width: 1248px;
+}
+.boa {
+  position: absolute;
+  width: 77px;
+  height: 24px;
+  left: 53px;
+  top: 350px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #b3b3b3;
+}
+
+.tr {
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 53px;
+  top: 400px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #b3b3b3;
+}
+
+.ph {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 53px;
+  top: 450px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #b3b3b3;
+}
+
+.ps {
+  position: absolute;
+  width: 42px;
+  height: 24px;
+  left: 53px;
+  top: 500px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #b3b3b3;
+}
+
+.ber {
+  position: absolute;
+  width: 43px;
+  height: 24px;
+  left: 53px;
+  top: 550px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 169% */
+
+  color: #3159c2;
+}
+
+.sh {
+  position: absolute;
+  width: 303px;
+  height: 24px;
+  left: 243px;
+  top: 25px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  /* identical to box height, or 85% */
+
+  color: #3159c2;
+}
+
+.jube {
+  position: absolute;
+  width: 139px;
+  height: 32px;
+  left: 245px;
+  top: 100px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 118% */
+
+  color: #090909;
+}
+
+.inpn {
+  position: absolute;
+  width: 574px;
+  height: 58px;
+  left: 245px;
+  top: 143px;
+
+  color: #496ecb;
+  background: #d9d9d9;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-color: white;
+}
+
+
+
+.isi {
+  position: absolute;
+  width: 139px;
+  height: 32px;
+  left: 245px;
+  top: 240px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 118% */
+
+  color: #090909;
+}
+
+.inpi {
+  position: absolute;
+  width: 1440px;
+  height: 470px;
+  left: 245px;
+  top: 285px;
+
+  color: #496ecb;
+  background: #d9d9d9;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+}
+
+.kirim {
+  position: absolute;
+  width: 219px;
+  height: 44px;
+  left: 1480px;
+  top: 780px;
+
+  background: #3159c2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  border-color: white;
+}
