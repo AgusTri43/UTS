@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Penghuni</title>
+    <link rel="stylesheet" href="css/tpeng.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <img class="logo" src="img/Vector1.png" alt="">
+            <h1 class="prm">Cluster Maul Hill</h1>
+            <img class="prof" src="img/Ellipse.png" alt="">
+            <h2 class="us">Aditya</h2>
+            <a href="/dashboard" class="boa">Dashboard</a>
+            <a href="/transaksi"class="tr">Transaksi</a>
+            <a href="/penghuni"class="ph">Penghuni</a>
+            <a href="/pesan"class="ps">Pesan</a>
+            <a href="/berita"class="ber">Berita</a>
+        </div>
+        <div class="con">
+            <form action="/tambah-list-penghuni" method="post">
+            <h1 class="sh">Tambah Penghuni</h1>
+            <p class="nm">Nama</p>
+            <input type="text" class="inpn" name="nama_penghuni">
+            <p class="nt">No Telepon</p>
+            <input type="text" class="inpt" name="no_telp">
+            <p class="nr">No Rumah</p>
+            <input type="text" class="inpr" name="no_rumah">
+            <p class="usr">Username</p>
+            <input type="text" class="inps" name="username">
+            <p class="pw">Password</p>
+            <input type="text" class="inpw" name="password">
+            <input type='submit' class="kirim" name='tombol' value='Tambah Penghuni' />
+        </form>
+</body>
+</html>

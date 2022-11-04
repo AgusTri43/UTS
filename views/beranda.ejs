@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/beranda.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="6cf840b1-2824-4046-adb9-d74aff907c1b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+  <title>Sistem Informasi Perumahan</title>
+</head>
+<body>
+  <header>
+    <li><img class="logo" src="img/logo.png" alt="logo"></li>
+    <li><p class="nmlogo">Cluster Maul Hill</p></li>
+    <li><img class="rcp "src="img/receipt.png"><a class="headnav" href="/tagihan">Tagihan</a></li>
+    
+    <script>
+        let subMenu=document.getElementById("subMenu");
+
+        function toggleMenu(){
+            submenu.classList.toggle("openMenu");
+        }
+    </script>
+  </header>
+  <div class="banner">
+    <li style="list-style: none;"><img class="bn"src="img/rumah1.png"></li>
+  </div>
+  <div class="row d-flex justify-content-center mt-100 mb-100">                       
+    <div class="col-lg-6">
+       
+       <div class="card">
+           <div class="card-body text-center">
+               <h2 class="card-title m-b-0">Daily News Updates</h2>
+               <h4 class="card-title m-b-0">Cluster Maul Hill</h4>
+           </div>
+           <ul class="list-style-none">
+            <% for (let i=0; i < berita.length; i++){%> 
+               <li class="d-flex no-block card-body border-top">
+                <i class="fa fa-plus w-30px m-t-5"></i>
+                   <div>
+                       <p class="m-b-0 font-medium p-0" data-abc="true"><%= berita[i].judul_berita%></p>
+                       <span class="text"><%= berita[i].isi_berita%></span>
+                   </div>
+               </li>
+               <%}%>
+           </ul> 
+       </div>
+  
+   </div>
+   </div>
+</body>
+
+</html>

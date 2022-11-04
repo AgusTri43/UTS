@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pnghn</title>
+    <link rel="stylesheet" href="css/peng.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <img class="logo" src="img/Vector1.png" alt="">
+            <h1 class="prm">Cluster Maul Hill</h1>
+            <img class="prof" src="img/Ellipse.png" alt="">
+            <h2 class="us">Aditya</h2>
+            <a href="/dashboard" class="boa">Dashboard</a>
+            <a href="/transaksi"class="tr">Transaksi</a>
+            <a href="/penghuni"class="ph">Penghuni</a>
+            <a href="/pesan"class="ps">Pesan</a>
+            <a href="/berita"class="ber">Berita</a>
+        </div>
+        <div class="con">
+            <h1 class="sh">Daftar Penghuni</h1>
+            <table>
+                <tr class="up">
+                  <td class="no">No</td>
+                  <td class="name">Nama</td>
+                  <td class="telp">No Telepon</td>
+                  <td class="rmh">No Rumah</td>
+                  <td class="srn">Username</td>
+                  <td class="pw">Password</td>
+                </tr>
+                <% for (let i=0; i < penghuni.length; i++){%> 
+                <tr>
+                  <td class="usr" style="padding: 20px"><%= penghuni[i].id_penghuni%></td>
+                  <td class="usr"><%= penghuni[i].nama%></td>
+                  <td class="usr"><%= penghuni[i].no_telp%></td>
+                  <td class="usr"><%= penghuni[i].no_rumah%></td>
+                  <td class="usr"><%= penghuni[i].username%></td>
+                  <td class="usr"><%= penghuni[i].password%></td>
+                </tr>
+                <% }%>
+            </table>
+            <a class="tph" href="/tambah-penghuni">Tambah Penghuni</a>
+        </div>
+    </div>
+</body>
+</html>

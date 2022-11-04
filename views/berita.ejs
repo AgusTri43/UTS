@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita</title>
+    <link rel="stylesheet" href="css/be.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <img class="logo" src="img/Vector1.png" alt="" />
+        <h1 class="prm">Cluster Maul Hill</h1>
+        <img class="prof" src="img/Ellipse.png" alt="" />
+        <h2 class="us">Aditya</h2>
+        <a href="/dashboard" class="boa">Dashboard</a>
+        <a href="/transaksi"class="tr">Transaksi</a>
+        <a href="/penghuni"class="ph">Penghuni</a>
+        <a href="/pesan"class="ps">Pesan</a>
+        <a href="/berita"class="ber">Berita</a>
+      </div>
+      <div class="con">
+        <h1 class="sh">Berita</h1>
+        <h3 class="shh">Berita</h3>
+        
+        <a href="/tambah-berita" class="upl">Buat Berita Baru</a>
+        <table>
+          <tr class="up">
+            <td class="no">No</td>
+            <td class="name">Judul</td>
+            <td class="ket">Action</td>
+          </tr>
+          <% for (let i=0; i < berita.length; i++){%>
+          <tr>
+            <td class="usr" style="padding: 20px"><%= berita[i].id_berita%></td>
+            <td class="usr">
+                <%= berita[i].judul_berita%>
+              <a  href="/edit-berita/<%= berita[i].id_berita%>" class="lh" style="margin-left: 100px">Edit</a>
+              <a href="/hapus/<%= berita[i].id_berita%>" class="ed" style="margin-left: 40px">Hapus</a>
+            </td>
+          </tr>
+          <% } %> 
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

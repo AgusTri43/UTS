@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Berita</title>
+    <link rel="stylesheet" href="css/bbe.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <img class="logo" src="img/Vector1.png" alt="">
+            <h1 class="prm">Cluster Maul Hill</h1>
+            <img class="prof" src="img/Ellipse.png" alt="">
+            <h2 class="us">Aditya</h2>
+            <a href="/dashboard" class="boa">Dashboard</a>
+        <a href="/transaksi"class="tr">Transaksi</a>
+        <a href="/penghuni"class="ph">Penghuni</a>
+        <a href="/pesan"class="ps">Pesan</a>
+        <a href="/berita"class="ber">Berita</a>
+        </div>
+        <div class="con">
+            <form action="/upload-berita" method="post">
+            <h1 class="sh">Buat Berita</h1>
+            <p class="jube">Judul Berita</p>
+            <input name="judul_berita"  type="text" class="inpn">
+            <p class="isi">Isi</p>
+            <p><textarea class="inpi" name="isi_berita" rows="10" cols="30"></textarea>
+            <input type='submit' class="kirim" name='tombol' value='Upload_berita' />
+        </form>
+        </div>
+        </div>
+</body>
+</html>
